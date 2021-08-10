@@ -6,3 +6,7 @@ selenium-server-standalone-3.141.59.jar
 /app/generated/__pycache__
 /app/proto/__pycache__
 /tests/__pycache__
+app/__pycache__/__init__.cpython-39.pyc
+app/__pycache__/echoer.cpython-39.pyc
+app/__pycache__/gserver.cpython-39.pyc
+app/__pycache__/server.cpython-39.pyc
