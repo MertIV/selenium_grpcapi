@@ -1,0 +1,8 @@
+/.pytest_cache
+/selenium_grpcapi.egg-info
+/venv
+selenium-server-standalone-3.141.59.jar
+/app./__pycache__
+/app/generated/__pycache__
+/app/proto/__pycache__
+/tests/__pycache__
