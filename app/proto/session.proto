@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package session;
+
+message Session{
+    string id = 1;
+}
+
+message SessionRequest{
+    Session session = 1;
+}
+
+message IdRequest{
+    string id = 1;
+}
+
+message StringResponse{
+    string data = 1;
+}
+
+service SessionService{
+    rpc Create(SessionRequest) returns (Session);
+    rpc Update(SessionRequest) returns (Session);
+    rpc Delete(IdRequest) returns (StringResponse);
+}
